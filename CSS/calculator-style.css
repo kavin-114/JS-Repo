@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    border-radius: 1rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.84);
+    box-shadow: 0rem 0rem 2rem;
+    width: 40% !important;
+    background-color: rgba(241, 241, 196, 0.774);
+}
+.display{
+    height: 4rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.542);
+    border-radius: 1.5rem; 
+}
+button{
+    border: 0.2rem solid rgba(0, 0, 0, 0.542);
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+    padding: 0.5rem;
+}
+#equal{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    border: 0.2rem solid rgba(13, 154, 255, 0.804);
+}
